@@ -1,5 +1,4 @@
 import { LightningElement, api } from 'lwc';
-import { RefreshEvent } from 'lightning/refresh';
 import testModal from 'c/testModal';
 
 export default class TestLauncher extends LightningElement {
