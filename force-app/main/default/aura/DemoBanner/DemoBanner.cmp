@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable">
+    <aura:attribute name="recordId" type="Id"/>
+    <c:testLauncher recordId ="{!v.recordId}" aura:id="testModal"></c:testLauncher> 
+    <lightning:card title="Demo Aura Component">
+        <lightning:button
+            variant="brand"
+            label="Test Modal"
+            onclick="{!c.openTestModal}"
+            class="slds-m-around_x-small">
+        </lightning:button>
+    </lightning:card>
+</aura:component>	

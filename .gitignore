@@ -1,0 +1,9 @@
+/.forceignore
+/.sf
+/.sfdx
+/.vscode
+/config
+/hardis-report
+/manifest
+/README.md
+/sfdx-project.json
