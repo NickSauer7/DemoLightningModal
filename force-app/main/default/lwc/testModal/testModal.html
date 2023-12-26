@@ -1,9 +1,9 @@
 <template>
-    <template if:true={showHeader}>
+    <template lwc:if={showHeader}>
         <lightning-modal-header label={header}></lightning-modal-header>
     </template>
     <lightning-modal-body>
-        <template if:true={flowModal}>
+        <template lwc:if={flowModal}>
             <div class="slds-is-relative">
                 <lightning-flow 
                     onstatuschange={handleStatusChange} 
@@ -15,7 +15,7 @@
             </div>
         </template>
     </lightning-modal-body>
-    <template if:true={showFooter}>
+    <template lwc:if={showFooter}>
         <lightning-modal-footer>
             <lightning-button label="Close" onclick={handleClose}></lightning-button>
         </lightning-modal-footer>
